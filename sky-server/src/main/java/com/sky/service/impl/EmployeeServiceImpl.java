@@ -19,12 +19,9 @@ public class EmployeeServiceImpl implements EmployeeService {
     @Autowired
     private EmployeeMapper employeeMapper;
 
-    /**
-     * 员工登录
-     *
-     * @param employeeLoginDTO
-     * @return
-     */
+//      员工登录
+//      @param employeeLoginDTO
+//      @return
     public Employee login(EmployeeLoginDTO employeeLoginDTO) {
         String username = employeeLoginDTO.getUsername();
         String password = employeeLoginDTO.getPassword();
